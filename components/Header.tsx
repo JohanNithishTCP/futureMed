@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className="w-full bg-primary text-white sticky top-0 z-50">
-      <div className="container h-20 flex items-center justify-between">
+      <div className="container h-20 my-3 flex items-center justify-between">
         {/* Logo Placeholder */}
         <div className="flex items-center justify-center rounded overflow-hidden">
           <img src="/logo.png" alt="Logo" className="w-20 h-20 object-cover" />
